@@ -13,6 +13,6 @@ public class WordleList {
     };
     
     public String[] getWords() {
-        return words;
+        return this.words;
     }
 }
