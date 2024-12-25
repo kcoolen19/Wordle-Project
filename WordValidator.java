@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class WordValidator {
     public static final int WORD_LENGTH = 5;
     public static final String PROMPT_STATEMENT = "Enter word: ";
-    public static final String WRONG_PROMPT = "Word entered is not of the correct length!";
+    public static final String WRONG_PROMPT = "Word entered is not valid!";
     public static final String REGULAR_EXPRESSION = "[a-zA-Z]+";
 
     public boolean wordValid(String word) {
