@@ -1,11 +1,11 @@
 import java.util.Random;
 
 public class WordCheck {
-    public static final String GREEN_BACKGROUND = "\u001B[42m";
-    public static final String YELLOW_BACKGROUND = "\u001B[43m";
-    public static final String GREY_BACKGROUND = "\u001B[47m";
-    public static final String RESET_BACKGROUND = "\u001B[0m";
-    public static final int WORD_LENGTH = 5;
+    private static final String GREEN_BACKGROUND = "\u001B[42m";
+    private static final String YELLOW_BACKGROUND = "\u001B[43m";
+    private static final String GREY_BACKGROUND = "\u001B[47m";
+    private static final String RESET_BACKGROUND = "\u001B[0m";
+    private static final int WORD_LENGTH = 5;
 
     public String checkWord(String guess, String target, WordleList wordleList) {
         StringBuilder checkWord = new StringBuilder();
