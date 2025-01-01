@@ -40,4 +40,9 @@ The word input by the player is checked after each try. Three colors are used to
 
 4. `WordleList.java` <br />
 * Contains a list of words in an array
-* Contains a method that returns the array in another class where the word is picked as the cho
+* Contains a method that returns the array in another class where the word is picked as the word to be guessed.
+
+## Sources
+The project was designed and inspired by the Wordle game. Below are the references and sources used: <br />
+* Wordle - The New York Times: https://www.nytimes.com/games/wordle/index.html <br />
+* Archive of Wordle words: https://www.wordunscrambler.net/word-list/wordle-word-list
